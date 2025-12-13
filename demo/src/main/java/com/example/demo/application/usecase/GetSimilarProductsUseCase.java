@@ -1,4 +1,4 @@
-package com.example.application.usecase;
+package com.example.demo.application.usecase;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,8 +7,8 @@ import java.util.concurrent.Executor;
 
 import org.springframework.stereotype.Service;
 
-import com.example.application.port.ProductDetailPort;
-import com.example.application.port.SimilarIdsPort;
+import com.example.demo.application.port.ProductDetailPort;
+import com.example.demo.application.port.SimilarIdsPort;
 import com.example.demo.domain.model.ProductDetail;
 
 import lombok.RequiredArgsConstructor;

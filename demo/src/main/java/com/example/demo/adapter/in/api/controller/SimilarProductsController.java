@@ -1,4 +1,4 @@
-package com.example.adapter.in.api.controller;
+package com.example.demo.adapter.in.api.controller;
 
 import java.util.List;
 
@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.adapter.in.api.dto.ProductDetailResponse;
-import com.example.adapter.in.api.mapper.ApiProductMapper;
-import com.example.application.usecase.GetSimilarProductsUseCase;
+import com.example.demo.adapter.in.api.dto.ProductDetailResponse;
+import com.example.demo.adapter.in.api.mapper.ApiProductMapper;
+import com.example.demo.application.usecase.GetSimilarProductsUseCase;
 
 import lombok.RequiredArgsConstructor;
 

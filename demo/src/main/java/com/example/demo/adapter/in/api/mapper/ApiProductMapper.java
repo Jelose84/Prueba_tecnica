@@ -1,8 +1,8 @@
-package com.example.adapter.in.api.mapper;
+package com.example.demo.adapter.in.api.mapper;
 
 import org.mapstruct.Mapper;
 
-import com.example.adapter.in.api.dto.ProductDetailResponse;
+import com.example.demo.adapter.in.api.dto.ProductDetailResponse;
 import com.example.demo.domain.model.ProductDetail;
 
 @Mapper(componentModel = "spring")

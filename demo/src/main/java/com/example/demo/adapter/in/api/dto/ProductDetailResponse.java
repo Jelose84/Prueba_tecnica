@@ -1,4 +1,4 @@
-package com.example.adapter.in.api.dto;
+package com.example.demo.adapter.in.api.dto;
 
 import java.math.BigDecimal;
 
