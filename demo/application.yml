@@ -1,0 +1,8 @@
+server:
+  port: 5000
+
+existing-api:
+  base-url: http://localhost:3001
+  connect-timeout-ms: 300
+  read-timeout-ms: 800
+  parallelism: 8
