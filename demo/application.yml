@@ -6,3 +6,4 @@ existing-api:
   connect-timeout-ms: 300
   read-timeout-ms: 800
   parallelism: 8
+  queue-capacity: 200

@@ -56,7 +56,8 @@ class ExistingProductApiClientIT {
         baseUrl,
         200,   // connectTimeoutMs
         500,   // readTimeoutMs
-        4      // parallelism (si aplica)
+        4,      // parallelism (si aplica)
+        200
     );
 
     RestTemplate restTemplate = new RestTemplateBuilder()

@@ -7,5 +7,6 @@ public record ExistingApiProperties(
     String baseUrl,
     int connectTimeoutMs,
     int readTimeoutMs,
-    int parallelism
+    int parallelism,
+    int queueCapacity
 ) {}
